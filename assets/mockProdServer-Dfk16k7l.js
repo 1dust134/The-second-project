@@ -1,0 +1,1 @@
+import{M as e,u as t}from"./index-Bk5H5UMA.js";function s(){e.mock(/\/home\/getUserData/,"get",t.getUserList),e.mock(/\/createUser/,"post",t.createUser),e.mock(/\/updateUser/,"post",t.updateUser),e.mock(/\/deleteUser/,"get",t.deleteUser)}export{s as setupProdMockServer};
